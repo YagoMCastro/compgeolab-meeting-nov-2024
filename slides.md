@@ -213,6 +213,63 @@ Modelling and processing magnetic microscopy data
 
 ===============================================================================
 
+<!-- .slide: data-background-opacity="1" data-background-image="assets/issue-1.png"  data-background-size="contain" data-background-color="#262626" -->
+
+===============================================================================
+
+<!-- .slide: data-background-opacity="1" data-background-image="assets/benchmark.png"  data-background-size="contain" data-background-color="#262626" -->
+
+===============================================================================
+
+<!-- .slide: data-background-opacity="1" data-background-image="assets/issue-figshare.png"  data-background-size="contain" data-background-color="#262626" -->
+
+===============================================================================
+
+<!-- .slide: data-background-opacity="1" data-background-image="assets/fatiando-data-1.png"  data-background-size="contain" data-background-color="#262626" -->
+
+===============================================================================
+
+<!-- .slide: data-background-opacity="1" data-background-image="assets/export.png"  data-background-size="contain" data-background-color="#262626" -->
+
+===============================================================================
+
+<!-- .slide: data-background-opacity="1" data-background-image="assets/issue-stereogram.png"  data-background-size="contain" data-background-color="#262626" -->
+
+===============================================================================
+
+# Stereonet
+
+<div class="row">
+<div class="col-large small">
+
+
+<img src="assets/stereonet.png">
+
+</div>
+<div class="col-large small">
+
+<img src="assets/stereogram-1.png">
+
+</div>
+
+===============================================================================
+
+# Stereonet
+
+<div class="row">
+<div class="col-large small">
+
+
+<img src="assets/stereonet.png">
+
+</div>
+<div class="col-large small">
+
+<img src="assets/stereogram-magali.png">
+
+</div>
+
+===============================================================================
 
 <!-- .slide: data-background-opacity="0.2" data-background-image="assets/magali-logo.png"  data-background-size="contain" data-background-color="#262626" -->
 
