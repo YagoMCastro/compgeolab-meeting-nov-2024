@@ -1,15 +1,11 @@
-# Template for my reveal.js based slides
+# Magali
 
-This is a template I use to make [reveal.js](https://revealjs.com/) slides
-for talks and lectures.
-It adds some custom styling and CSS classes for making columns, footnotes,
-and more.
+**Presenter**: Yago Moreira Castro
 
-**Preview:** https://www.leouieda.com/talk-template
+**Preview:** [https://yagomcastro.github.io/compgeolab-meeting-nov-2024](https://yagomcastro.github.io/compgeolab-meeting-nov-2024)
 
-> The original inspiration is this template by Matthew Turk:
-> https://github.com/matthewturk/mjt-talk-template
-
+> A template by Leonardo Uieda was used to create this presentation:
+> https://github.com/leouieda/talk-template
 ## Using
 
 1. Click on the "Use this template" button or go to
