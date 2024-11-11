@@ -5,20 +5,20 @@ The reveal.js configuration can be found in index.html
 -------------------------------------------------------------------------------
 -->
 
-<!-- .slide: class="slide-title" data-background-image="assets/title-slide.svg" data-background-color="#000000" data-background-size="contain" -->
+
+<!-- .slide: class="slide-title" data-background-opacity="0.3" data-background-image="assets/magali-logo.svg" data-background-color="#000000" data-background-size="contain" -->
 
 <!-- Place the content at the bottom of the slide -->
 <div class="r-stretch">
 </div>
 
 <h1 id="talk-title">
-  A long talk title that may <br>be kind of boring and <br>more than one line long
+  
+  Magali: Modelling and inversion of magnetic microscopy data 🧲🔬
+
 </h1>
 <p id="talk-authors">
-  <a href="https://www.leouieda.com" id="talk-speaker">Leonardo Uieda</a>,
-  Author Two,
-  and
-  Author Three
+  <a id="talk-speaker">Yago M Castro</a>
 </p>
 
 <!-- Place location and date side-by-side with affiliation logos -->
@@ -26,9 +26,9 @@ The reveal.js configuration can be found in index.html
 <div class="col-large">
 
 <i class="fa fa-calendar-alt" style="margin: 0 10px 0 0"></i>
-XX Month 202X
+12 September 2024
 <span style="margin: 0 20px"></span>
-Event/host of the talk
+Science Day 2024 | IAG
 
 <!-- Permission to reuse and CC-BY license logo -->
 <i class="fa fa-camera" style="margin: 0 10px 0 0"></i>
@@ -43,8 +43,8 @@ Feel free to screenshot/share/reuse this presentation
 <div class="talk-logos-container">
 <div class="talk-logos">
   <a href="https://www.compgeolab.org"><img src="assets/compgeolab-banner-light.svg" alt="Computer-Oriented Geoscience Lab"></a>
-  <a href="https://www.iag.usp.br/"><img src="assets/iag.png" alt="Instituto de Astronomia, Geofísica e Ciências Atmosféricas"></a>
-  <a href="https://www.usp.br/"><img src="assets/usp.png" alt="Universidade de São Paulo"></a>
+  <!-- <a href="https://www.iag.usp.br/"><img src="assets/iag.png" alt="Instituto de Astronomia, Geofísica e Ciências Atmosféricas"></a>
+  <a href="https://www.usp.br/"><img src="assets/usp.png" alt="Universidade de São Paulo"></a> -->
 </div>
 </div>
 
@@ -53,308 +53,168 @@ Feel free to screenshot/share/reuse this presentation
 
 ===============================================================================
 
-# Heading 1
+# Paleomagnetism
 
-This is a slide with some content.
 
-## Heading 2
+===============================================================================
 
-* Bla bla
-* Bla bla
 
-### Heading 3
+  <img src="assets/geomag.svg" style="width: 50%" >
 
-Meh meh meh meh meh meh meh meh meh meh meh meh meh meh meh meh meh meh meh meh
-meh meh.
+
+
 
 ===============================================================================
 
 <div class="r-stretch">
 
-# Some facts
-
-About a certain topic.
-
-</div>
-<div class="footnote">
-
-This is a little footnote.
-Use it to add notes, citations, [links](https://www.leouieda.com/), etc.
-<br>
-Notice how the `div` above uses `r-stretch` to push this note to the bottom.
+  <img src="assets/sample.svg" height=100%>
 
 </div>
 
 ===============================================================================
 
-<div class="r-stretch centered">
-<div>
+<div class="r-stretch">
 
-# Even more facts!
-
-About many different things.
+  <img src="assets/microscope-sample.svg" height=100%>
 
 </div>
+
+<div class="footnote-center">
+
+Souza-Junior (2024)
+
+</div>
+
+===============================================================================
+<div class="r-stretch">
+
+  <img src="assets/microscope.svg" height=100%>
+
+</div>
+<div class="footnote-center">
+
+[Glenn et a. (2017)](https://doi.org/10.1002/2017gc006946)
+
+</div>
+
+===============================================================================
+
+
+<!-- .slide: class="slide-title" data-background-opacity="1" data-background-image="assets/microscope-data.svg"  data-background-size="contain" -->
+
+<div class="r-stretch">
 </div>
 <div class="footnote-left">
 
-Left aligned footnote.
-Use `centered` on the `div` above to vertically center content.
+[Araujo et al. (2019)](https://doi.org/10.3390/s19071636)
+
+
+</div>
+
+===============================================================================
+
+# Needs
+<div class="fragment">
+
+- **Open software** for forward **modelling** and **inversion** techniques specific to magnetic microscopy 
+
+</div>
+
+<div class="fragment text-left">
+
+- **Data conventions**  
+
+</div>
+<div class="fragment">
+
+- Algorithms for **automatic detection** of magnetic **grains** and its **magnetic moment** determination
+
+</div>
+
+
+
+===============================================================================
+
+<!-- .slide: data-background-opacity="1" data-background-image="assets/readme-banner.png"  data-background-size="contain" data-background-color="#262626" -->
+
+===============================================================================
+
+<!-- .slide: data-background-opacity="0.2" data-background-image="assets/magali-logo.png"  data-background-size="contain" data-background-color="#262626" -->
+
+<div class="huge ">
+
+What is Magali?
+
+<div class="large fragment">
+
+Free and open source 
 <br>
-Need to put another `div` inside of it as well.
+<i class="fab fa-github"></i> <i class="fas fa-lock-open"></i>  <i class="fab fa-osi"></i>
 
 </div>
 
-===============================================================================
-
-<!-- .slide: data-background-image="assets/agu2019.svg" data-background-size="contain" data-background-color="#000000" -->
-
-<div class="r-stretch">
 </div>
-<div class="footnote-center dark">
+<div class="large fragment">
 
-Centered footnote with a dark background on a slide with a background.
+Python library <i class="fab fa-python"></i>
+
+</div>
+
+<div class="large fragment">
+
+Modelling and processing magnetic microscopy data 
 <br>
-Set the size to `contain` to make sure aspect ratios are preserved and the
-background isn't cropped.
-<br>
-It's a good idea to add alt-text to this footnote if the background is
-important.
+<i class="fas fa-magnet"></i> <i class="fas fa-microscope"></i>
+
+</div>
+
+
+
+===============================================================================
+
+
+<!-- .slide: data-background-opacity="0.2" data-background-image="assets/magali-logo.png"  data-background-size="contain" data-background-color="#262626" -->
+
+# Why do we want to make it?
+
+<div class="fragment text-left">
+
+- Provide code that is **easy to use**
+
+</div>
+
+<div class="fragment text-left">
+
+- Determine the **spatial positions** of **multiple** grains
+
+</div>
+<div class="fragment text-left">
+
+- Facilitate the creation of **synthetic data**
+
+</div>
+<div class="fragment text-left">
+
+- Propose a standard **data format**
+
+</div>
+
+<div class="fragment text-left">
+
+- Serve as a **foundation** for new methods 
+
+</div>
+<div class="fragment text-left">
+
+- Leverage the potential of emerging **magnetic microscopy** studies
 
 </div>
 
 ===============================================================================
 
-<!-- .slide: data-background-video="assets/brasil-sao-paulo-rio.mp4" data-background-size="contain" data-background-color="#000000" -->
 
-<div class="r-stretch">
-</div>
-<div class="footnote">
-
-This is how you use a video background.
-The video auto starts when flipping to this slide.
-
-</div>
-
-===============================================================================
-
-<!-- .slide: class="slide-transition" -->
-
-# A transition slide <br> with a large title
-
-...and some text.
-
-===============================================================================
-
-# Maths
-
-This is an inline $\int_a^b x^2 dx$ and $\delta g = g - \gamma$:
-
-`\[ \int_a^b x^2 dx \]`
-
-===============================================================================
-
-<!-- .slide: data-background-image="assets/agu2019.svg" data-background-size="contain" data-background-opacity="0.3" data-background-color="#000000" -->
-
-<div class="quote">
-
-Big quote message with a faded background image.
-Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla.
-
-</div>
-
-===============================================================================
-
-<!-- .slide: data-background-image="assets/agu2019.svg" data-background-size="contain" data-background-opacity="0.3" data-background-color="#ffffff" -->
-
-<div class="quote dark">
-
-Light fade of the background with a dark quote.
-
-</div>
-
-===============================================================================
-
-# Two column layout
-
-<div class="row">
-<div class="col">
-
-## Theory
-
-Explain something here.
-This is how you make a FontAwesome list:
-
-<ul class="fa-ul">
-
-<li>
-<span class="fa-li"> <i class="fa fa-lightbulb fa-fw"></i> </span>
-Make a list with
-</li>
-
-<li>
-<span class="fa-li"> <i class="fa fa-file-alt fa-fw"></i> </span>
-some awesome icons
-</li>
-
-<li>
-<span class="fa-li"> <i class="fa fa-users fa-fw"></i> </span>
-instead of bullet points
-</li>
-
-</ul>
-
-</div>
-<div class="col tiny">
-
-<img src="assets/halfspace-temperature.png">
-
-Some text explaining the figure.
-Maybe even a bit of maths like $\gamma$.
-
-</div>
-</div>
-
-<div class="footnote">
-
-Good place for a citation or image credit.
-This one is by Leonardo Uieda (CC-BY).
-
-</div>
-
-===============================================================================
-
-<div class="r-stretch centered">
-<div>
-
-# Multiple columns
-
-Place as many `col`s as you want. They will have the same size.
-
-<div class="row">
-<div class="col">
-
-Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-bla bla.
-
-</div>
-<div class="col tiny">
-
-<img src="assets/nbr_thomas_fire.jpg">
-
-Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-bla bla.
-
-</div>
-<div class="col tiny">
-
-<img src="assets/halfspace-temperature.png">
-
-Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-bla bla.
-
-</div>
-</div>
-
-</div>
-</div>
-<div class="footnote">
-
-Images by Leonardo Uieda (CC-BY).
-
-</div>
-
-===============================================================================
-
-# This one has columns of different size
-
-<div class="row">
-<div class="col-large tiny">
-
-<img style="width: 95%;" src="assets/nbr_thomas_fire.jpg">
-
-This way the image is larger on the screen. Use it for maps or main figures.
-
-</div>
-<div class="col small">
-
-Explain what is shown on the image.
-Use the `small` class to adjust font size.
-
-Maybe include some maths:
-
-$ D\dfrac{\partial^4 w}{\partial x^4} = q - g (\rho_m - \rho_w) w $
-
-</div>
-</div>
-
-===============================================================================
-
-<div class="row">
-<div class="col tiny">
-
-<img src="assets/japan-trench-globalcmt.png">
-
-This way the image is narrow so it should be in a smaller column.
-
-</div>
-<div class="col-medium">
-
-# Column sizes
-
-Columns come in 3 sizes:
-
-1. `col`
-1. `col-medium`
-1. `col-large`
-
-These are more proportions than fixed sizes.
-
-</div>
-</div>
-
-===============================================================================
-
-# Code
-
-Example of using PyGMT to make a map:
-
-<div class="row">
-<div class="col-large fragment small">
-
-This code:
-
-```python
-import pygmt
-
-# Load built-in topography data
-grid = pygmt.datasets.load_earth_relief()
-
-fig = pygmt.Figure()
-# Pseudo-color map of topography
-fig.basemap(
-    region=[-150, -30, -60, 60],
-    projection="I-90/6i",
-    frame=True,
-)
-fig.grdimage(grid=grid, cmap="viridis")
-# Mask continents in dark grey
-fig.coast(land="#333333")
-# Display in Jupyter or pop-up window
-fig.show()
-```
-</div>
-<div class="col-medium fragment small">
-
-Makes this map 👇
-
-<img style="width: 90%" src="assets/pygmt-example.png">
-
-</div>
-
-===============================================================================
-
-<!-- .slide: class="slide-contact" data-background-image="assets/contact-slide.svg" data-background-size="contain" data-background-color="#000000" -->
+<!-- .slide: data-background-opacity="0.2" data-background-image="assets/magali-logo.png"  data-background-size="contain" data-background-color="#262626" -->
 
 <div class="r-stretch centered">
 <div>
@@ -362,13 +222,13 @@ Makes this map 👇
 <i class="fas fa-comments"></i>
 <br>
 Contact:
-<a href="https://www.leouieda.com">www.leouieda.com</a>
+<a>yagomcastro1@gmail.com</a>
 
 <i class="fab fa-github"></i>
 <br>
 Source code for this presentation:
 <br>
-[github.com/leouieda/talk-template](https://github.com/leouieda/talk-template)
+[github.com/YagoMCastro/science-day-2024-magali](https://github.com/leouieda/talk-template)
 
 <i class="fab fa-creative-commons"></i><i class="fab fa-creative-commons-by"></i>
 <br>
@@ -379,10 +239,4 @@ licensed under the
 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
 </div>
-</div>
-<div class="footnote-left dark">
-
-The background image is a Landsat 9 scene of the city of São Paulo, Brazil,
-showing the USP campus in the center.
-
 </div>
